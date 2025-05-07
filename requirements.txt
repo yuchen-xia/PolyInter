@@ -1,0 +1,14 @@
+cython
+tensorboardX
+tqdm
+pyyaml
+icecream
+shapely
+pyquaternion
+open3d
+pypcd==0.1.1
+opencv-python
+h5py
+torchtyping
+einops
+efficientnet_pytorch

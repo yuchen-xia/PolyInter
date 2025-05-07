@@ -1,0 +1,10 @@
+zip -r xyc.zip . -x="build/*"\
+                -x="checkpoints/*"\
+                -x="dataset/*"\
+                -x="*.zip"\
+                -x="opencood/logs/*"\
+                -x="opencood/pre_train_modules/*"\
+                -x="*.png"\
+                -x="*.out"\
+                -x="*.pyc"\
+                -x=".git/*"

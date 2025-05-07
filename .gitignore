@@ -1,0 +1,10 @@
+build
+dataset
+dataset_dairv2x
+checkpoints
+*.out
+*.zip
+opencood/pre_train_modules
+opencood/pre_train_modules_dairv2x
+**/__pycache__
+*.pyc
