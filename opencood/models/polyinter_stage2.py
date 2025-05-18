@@ -73,6 +73,9 @@ class PolyInterStage2(nn.Module):
             self.fusion_net = SpatialFusion()
         elif self.fusion_method=='cobevt':
             self.fusion_net = CoBEVT(args['fusion_net'])
+        self.fusion_net = train_utils.load_pretrained_submodule(
+            args["pre_train_modules"], self.fusion_net, "fusion_net"
+        )
         
         for param in self.channel_cross_attention.parameters():
             param.requires_grad = False
