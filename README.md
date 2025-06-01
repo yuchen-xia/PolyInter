@@ -44,7 +44,7 @@ PolyInter
 ```
 
 ## PolyInter Stage1 Training
-First, train the single agent's encoder and detection head. The training process can refer to the [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) process. If you need our pre-trained single agent models, please contact us via email `yuchen.xia@bupt.edu.cn`. Place the single agent model files into `opencood/pre_train_modules`. In the corresponding yaml configuration file, modify `model.args.encoder_*.saved_pth` to the path of the model files.
+First, train the single agent's encoder and detection head. The training process can refer to the [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) process. Our pre-trained single agent models can be downloaded from [pre_train_modules.zip](https://drive.google.com/file/d/1Dkpy2Pzt1Y6g6UTMsQraS04TTm9OnkLT/view?usp=sharing). Place the single agent model files into `opencood/pre_train_modules`. In the corresponding yaml configuration file, modify `model.args.encoder_*.saved_pth` to the path of the model files.
 
 Then execute the following command to start Stage1 training:
 ```
